@@ -32,7 +32,7 @@ tags
 /logs
 
 # project release file
-/*.war
+*.war
 
 # plugin release files
 /*.zip
@@ -46,7 +46,7 @@ tags
 /target
 ### Gradle template
 .gradle
-build/
+build/*
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -62,3 +62,4 @@ gradle-app.setting
 
 .idea/*
 .slcache/*
+*.war
