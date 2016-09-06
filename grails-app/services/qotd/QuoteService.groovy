@@ -16,10 +16,7 @@ class QuoteService {
         } else {
             randomQuote = getStaticQuote()
         }
-        [quote: randomQuote]
+        randomQuote
     }
 
-    def serviceMethod() {
-
-    }
 }
