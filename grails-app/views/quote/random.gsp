@@ -2,7 +2,6 @@
 <head>
     <title>Random Quote</title>
     <g:javascript library="jquery"/>
-    <r:layoutResources/>
 </head>
 
 <body>
@@ -24,6 +23,6 @@
 
     <p>${quote.author}</p>
 </div>
-<r:layoutResources/>
+
 </body>
 </html>
