@@ -17,6 +17,7 @@ class QuoteServiceIntegrationTests {
         // Tear down logic here
     }
 
+    @Test
     void testStationQuote(){
         def staticQuote = quoteService.getStaticQuote()
         assertEquals("Anonymous", staticQuote.author)
